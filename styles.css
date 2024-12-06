@@ -1,0 +1,68 @@
+/* styles.css */
+
+:root {
+  --bg-color-light: #f0f0f0;
+  --text-color-light: #333;
+  --bg-color-dark: #1e1e1e;
+  --text-color-dark: #ffffff;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--bg-color-light);
+  color: var(--text-color-light);
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: var(--bg-color-dark);
+  color: var(--text-color-dark);
+}
+
+#quote {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 20px;
+}
+
+#toggleDarkMode {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+#bookmarksList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 600px;
+  text-align: left;
+}
+
+#bookmarksList li {
+  margin: 5px 0;
+}
+
+#bookmarksList a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#bookmarksList a:hover {
+  text-decoration: underline;
+}

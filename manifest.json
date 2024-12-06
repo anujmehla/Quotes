@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Quotes and Bookmarks New Tab Extension",
+  "version": "1.0",
+  "description": "Displays a random quote and shows the bookmark bar in the new tab.",
+  "permissions": ["storage"],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}
+
+// "permissions": ["storage", "bookmarks"],
