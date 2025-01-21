@@ -32,4 +32,5 @@ window.quotes = [
   "The things that are really important in life have a high price. Rebellion. Liberty. Ideals.",
   "Speak softy and carry a big stick, you will go far.",
   "“Contemplation often makes life miserable. We should act more, think less, and stop watching ourselves live.”",
+  "As you walk through the desert of life, may you always find your oasis — a place where you can find safety and sustenance.",
 ];
